@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0181FA5E1ED42DA600874FA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0181FA5D1ED42DA600874FA7 /* main.cpp */; };
 		0181FA661ED42DCD00874FA7 /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0181FA651ED42DCD00874FA7 /* GLUT.framework */; };
 		0181FA681ED42DDC00874FA7 /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0181FA671ED42DDC00874FA7 /* OpenGL.framework */; };
 		0181FA6C1ED42E4100874FA7 /* libGLEW.2.0.0.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0181FA691ED42E4100874FA7 /* libGLEW.2.0.0.dylib */; };
 		0181FA6D1ED42E4100874FA7 /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0181FA6A1ED42E4100874FA7 /* libglfw.3.2.dylib */; };
 		0181FA6E1ED42E4100874FA7 /* libSOIL.1.07.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 0181FA6B1ED42E4100874FA7 /* libSOIL.1.07.dylib */; };
-		0181FA791ED46A5A00874FA7 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0181FA771ED46A5A00874FA7 /* Game.cpp */; };
+		0181FA7F1ED47ECD00874FA7 /* Game.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0181FA7C1ED47ECD00874FA7 /* Game.cpp */; };
+		0181FA801ED47ECD00874FA7 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0181FA7E1ED47ECD00874FA7 /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -30,14 +30,14 @@
 
 /* Begin PBXFileReference section */
 		0181FA5A1ED42DA600874FA7 /* OpenGL Tutorial */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "OpenGL Tutorial"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0181FA5D1ED42DA600874FA7 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		0181FA651ED42DCD00874FA7 /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
 		0181FA671ED42DDC00874FA7 /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
 		0181FA691ED42E4100874FA7 /* libGLEW.2.0.0.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libGLEW.2.0.0.dylib; path = ../../../../usr/local/lib/libGLEW.2.0.0.dylib; sourceTree = "<group>"; };
 		0181FA6A1ED42E4100874FA7 /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = ../../../../usr/local/lib/libglfw.3.2.dylib; sourceTree = "<group>"; };
 		0181FA6B1ED42E4100874FA7 /* libSOIL.1.07.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libSOIL.1.07.dylib; path = ../../../../usr/local/lib/libSOIL.1.07.dylib; sourceTree = "<group>"; };
-		0181FA771ED46A5A00874FA7 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Game.cpp; sourceTree = "<group>"; };
-		0181FA781ED46A5A00874FA7 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Game.hpp; sourceTree = "<group>"; };
+		0181FA7C1ED47ECD00874FA7 /* Game.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = Game.cpp; path = "Simple Window/Game.cpp"; sourceTree = "<group>"; };
+		0181FA7D1ED47ECD00874FA7 /* Game.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = Game.hpp; path = "Simple Window/Game.hpp"; sourceTree = "<group>"; };
+		0181FA7E1ED47ECD00874FA7 /* main.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = main.cpp; path = "Simple Window/main.cpp"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,7 +59,7 @@
 		0181FA511ED42DA600874FA7 = {
 			isa = PBXGroup;
 			children = (
-				0181FA5C1ED42DA600874FA7 /* OpenGL Tutorial */,
+				0181FA7B1ED47E6500874FA7 /* Simple Window */,
 				0181FA5B1ED42DA600874FA7 /* Products */,
 				0181FA641ED42DCD00874FA7 /* Frameworks */,
 			);
@@ -73,16 +73,6 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0181FA5C1ED42DA600874FA7 /* OpenGL Tutorial */ = {
-			isa = PBXGroup;
-			children = (
-				0181FA771ED46A5A00874FA7 /* Game.cpp */,
-				0181FA781ED46A5A00874FA7 /* Game.hpp */,
-				0181FA5D1ED42DA600874FA7 /* main.cpp */,
-			);
-			path = "OpenGL Tutorial";
-			sourceTree = "<group>";
-		};
 		0181FA641ED42DCD00874FA7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +83,16 @@
 				0181FA651ED42DCD00874FA7 /* GLUT.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0181FA7B1ED47E6500874FA7 /* Simple Window */ = {
+			isa = PBXGroup;
+			children = (
+				0181FA7C1ED47ECD00874FA7 /* Game.cpp */,
+				0181FA7D1ED47ECD00874FA7 /* Game.hpp */,
+				0181FA7E1ED47ECD00874FA7 /* main.cpp */,
+			);
+			name = "Simple Window";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -152,8 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0181FA791ED46A5A00874FA7 /* Game.cpp in Sources */,
-				0181FA5E1ED42DA600874FA7 /* main.cpp in Sources */,
+				0181FA801ED47ECD00874FA7 /* main.cpp in Sources */,
+				0181FA7F1ED47ECD00874FA7 /* Game.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +292,7 @@
 				0181FA631ED42DA600874FA7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
